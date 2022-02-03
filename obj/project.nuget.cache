@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "775/VgyaPk5+6ddyUVekTTk8tWqVgPDT3N8AN42KeX67W3iTF8wuX2a94Ql7FlJ6Cw7kjYOQVFFcqCXGMh3U/g==",
+  "success": true,
+  "projectFilePath": "/Users/yaroslavanovoselova/Downloads/messages/MessageSevice_peer11/MessageSevice_peer11/MessageSevice_peer11.csproj",
+  "expectedPackageFiles": [
+    "/Users/yaroslavanovoselova/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/yaroslavanovoselova/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/yaroslavanovoselova/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/yaroslavanovoselova/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/yaroslavanovoselova/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/yaroslavanovoselova/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/yaroslavanovoselova/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

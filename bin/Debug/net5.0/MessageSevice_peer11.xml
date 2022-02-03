@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MessageSevice_peer11</name>
+    </assembly>
+    <members>
+        <member name="F:MessageSevice_peer11.Controllers.MessageController._users">
+            <summary>
+            Список пользователей.
+            </summary>
+        </member>
+        <member name="F:MessageSevice_peer11.Controllers.MessageController._messages">
+            <summary>
+            Список сообщений.
+            </summary>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.#cctor">
+            <summary>
+            Загрузка данных из файлов.
+            </summary>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.PostNewListOfUsersAndMessages">
+            <summary>
+            Инициализация списка пользователей и сообщений.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.PostNewUser(System.String,System.String)">
+            <summary>
+            Создание нового пользователя. 
+            </summary>
+            <param name="userName"> Имя пользователя. </param>
+            <param name="email"> Email пользователя. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.PostAMessage(System.String,System.String,System.String,System.String)">
+            <summary>
+            Отправка сообщения.
+            </summary>
+            <param name="subject"> Тема сообщения. </param>
+            <param name="messageText"> Текст сообщения. </param>
+            <param name="senderId"> Email отправителя. </param>
+            <param name="receiverId"> Email получателя. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.GetListOfAllUsers(System.Int32,System.Int32)">
+            <summary>
+            Вывод списка пользователей.
+            </summary>
+            <param name="Limit"> Количество пользователей, которое необходимо вернуть. </param>
+            <param name="Offset"> Порядковый номер пользователя, начиная с которого необходимо получать информацию. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.GetUserInfo(System.String)">
+            <summary>
+            Получение информации о пользователе.
+            </summary>
+            <param name="email"> Email пользователя. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.GetMessages">
+            <summary>
+            Вывод списка всех сообщений.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.GetMessages(System.String,System.String)">
+            <summary>
+            Получение списка сообщений по ID отправителя и получателя.
+            </summary>
+            <param name="senderId"> Email отправителя. </param>
+            <param name="receiverId"> Email получателя. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.GetMessagesForSender(System.String)">
+            <summary>
+            Получение списка сообщений по ID отправителя (получатель -- любой).
+            </summary>
+            <param name="senderId"> Email отправителя. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.GetMessagesForReceiver(System.String)">
+            <summary>
+            Получение списка сообщений по ID получателя (отправитель -- любой).
+            </summary>
+            <param name="receiverId"> Email получателя. </param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.SerialiseInfo">
+            <summary>
+            Сериализация данных.
+            </summary>
+        </member>
+        <member name="M:MessageSevice_peer11.Controllers.MessageController.DeserialiseInfo">
+            <summary>
+            Десериализация данных.
+            </summary>
+        </member>
+        <member name="P:MessageSevice_peer11.Models.Message.Subject">
+            <summary>
+            Тема сообщения.
+            </summary>
+        </member>
+        <member name="P:MessageSevice_peer11.Models.Message.MessageText">
+            <summary>
+            Текст сообщения.
+            </summary>
+        </member>
+        <member name="P:MessageSevice_peer11.Models.Message.SenderId">
+            <summary>
+            Email отправителя.
+            </summary>
+        </member>
+        <member name="P:MessageSevice_peer11.Models.Message.ReceiverId">
+            <summary>
+            Email получателя.
+            </summary>
+        </member>
+        <member name="M:MessageSevice_peer11.Models.Message.GenerateMessages(System.Collections.Generic.List{MessageSevice_peer11.Models.User})">
+            <summary>
+            Создания списка случайных сообщений.
+            </summary>
+            <param name="users"> Список пользователей. </param>
+            <returns> Список сообщений. </returns>
+        </member>
+        <member name="P:MessageSevice_peer11.Models.User.UserName">
+            <summary>
+            Имя пользователя
+            </summary>
+        </member>
+        <member name="P:MessageSevice_peer11.Models.User.Email">
+            <summary>
+            Email пользователя.
+            </summary>
+        </member>
+        <member name="M:MessageSevice_peer11.Models.User.GenerateUsers">
+            <summary>
+            Создания списка случайных пользователей.
+            </summary>
+            <returns> Список пользователей. </returns>
+        </member>
+    </members>
+</doc>
